@@ -26,7 +26,7 @@ app.use(express.json());
 
 const VALID_KEYS = [
   'BACKEND-1234', 
-  'FRONTEND-KEY-1122'  // Updated to match your actual frontend key
+  'FRONTEND-KEY-112'  // Updated to match your actual frontend key
 ]; 
 
 app.post('/validate', (req, res) => {
